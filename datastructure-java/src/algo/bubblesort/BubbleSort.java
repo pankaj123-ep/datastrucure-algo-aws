@@ -10,7 +10,7 @@ public class BubbleSort {
 	 */
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub test
 		
 		int[] array={15,12,2,1};
 		for(int i=0;i<array.length;i++)
