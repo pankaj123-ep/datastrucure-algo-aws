@@ -20,6 +20,25 @@ public class LinkedListOperation {
 		head=current;
 	}
 	
+	public void searchInList(int searchItem)
+	{
+		int counter=0;
+		Node current=head;
+		while(current!=null)
+		{
+			counter++;
+			if(current.data==searchItem)
+			{
+				System.out.println("item found at node["+counter+"]"+" "+searchItem);
+				break;
+			}
+			else
+				current=current.nextNode;
+		}
+		System.out.println("Item not found any position");
+		
+	}
+	
 	
 	public void displayList()
 	{

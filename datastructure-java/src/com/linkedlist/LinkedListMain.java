@@ -12,9 +12,10 @@ public class LinkedListMain {
 		
 		
 		op1.displayList();
-		
+		op1.searchInList(20);
 		op1.deleteAtHead();
 		op1.displayList();
+		
 		
 
 	}
